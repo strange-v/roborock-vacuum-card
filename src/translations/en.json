@@ -1,0 +1,107 @@
+{
+  "status": {
+    "cleaning": "Cleaning",
+    "docked": "Docked",
+    "error": "Error",
+    "idle": "Idle",
+    "offline": "Offline",
+    "paused": "Paused",
+    "returning": "Returning",
+    "unavailable": "Unavailable"
+  },
+  "reach_status": {
+    "charger_disconnected": "Charger disconnected",
+    "charging": "Charging",
+    "cleaning": "Cleaning",
+    "emptying_the_bin": "Emptying the bin",
+    "error": "Error",
+    "going_to_wash_the_mop": "Going to wash the mop",
+    "idle": "Idle",
+    "paused": "paused",
+    "returning_home": "Returning home",
+    "segment_cleaning": "Segment cleaning",
+    "unavailable": "Unavailable",
+    "updating": "Updating",
+    "washing_the_mop": "Washing the mop",
+    "zoned_cleaning": "Zoned cleaning"
+  },
+  "mode": {
+    "vac&mop": "Vac & Mop",
+    "mop": "Mop",
+    "vac": "Vac"
+  },
+  "suction_mode": {
+    "off": "Off",
+    "quiet": "Quiet",
+    "balanced": "Balanced",
+    "turbo": "Turbo",
+    "max": "Max",
+    "max_plus": "Max+"
+  },
+  "mop_mode": {
+    "off": "Off",
+    "mild": "Mild",
+    "moderate": "Moderate",
+    "intense": "Intense"
+  },
+  "route_mode": {
+    "fast": "Fast",
+    "standard": "Standard",
+    "deep": "Deep",
+    "deep_plus": "Deep+"
+  },
+  "error": {
+    "invalid_config": "Invalid configuration",
+    "missing_entity": "Specifying entity is required!"
+  },
+  "vacuum_error": {
+    "battery_error": "Battery error",
+    "bumper_stuck": "Bumper stuck",
+    "cannot_cross_carpet": "Cannot cross carpet",
+    "charging_error": "Charging error",
+    "cliff_sensor_error": "Cliff sensor error",
+    "dock_locator_error": "Dock locator error",
+    "fan_error": "Fan error",
+    "filter_blocked": "Dilter blocked",
+    "internal_error": "Internal error",
+    "invisible_wall_detected": "Invisible wall detected",
+    "lidar_blocked": "Lidar blocked",
+    "low_battery": "Low battery",
+    "main_brush_jammed": "Main brush jammed",
+    "no_dustbin": "No dustbin",
+    "nogo_zone_detected": "Nogo zone detected",
+    "return_to_dock_fail": "Return to dock fail",
+    "robot_on_carpet": "Robot on carpet",
+    "robot_tilted": "Robot tilted",
+    "robot_trapped": "Robot trapped",
+    "side_brush_error": "Side brush error",
+    "side_brush_jammed": "Side brush jammed",
+    "vertical_bumper_pressed": "Vertical bumper pressed",
+    "vibrarise_jammed": "Vibrarise jammed",
+    "wall_sensor_dirty": "Wall sensor dirty",
+    "wheels_jammed": "Wheels jammed",
+    "wheels_suspended": "Wheels suspended"
+  },
+  "doc_error": {
+    "cleaning_tank_full_or_blocked": "Cleaning tank full or blocked",
+    "dirty_tank_latch_open": "Dirty tank latch open",
+    "duct_blockage": "Duct blockage",
+    "no_dustbin": "No dustbin",
+    "waste_water_tank_full": "Waste water tank full",
+    "water_empty": "Water empty"
+  },
+  "common": {
+    "custom_cleaning": "Custom cleaning",
+    "doc_error": "Doc error",
+    "mop_mode": "Scrub Intensity & Water Flow",
+    "route_mode": "Route",
+    "suction_mode": "Saction Power",
+    "vacuum_error": "Vacuum error",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "return_to_base": "Return to base",
+    "locate": "Locate",
+    "stop": "Stop"
+  }
+}

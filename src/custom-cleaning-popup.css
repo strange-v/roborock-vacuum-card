@@ -1,0 +1,108 @@
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.32);
+  z-index: 999;
+}
+
+.popup-card {
+  position: relative;
+  color: var(--vc-primary-text-color);
+  border-radius: 16px;
+  background-color: var(--card-background-color);
+
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    z-index: 9999;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    height: var(--header-height);
+
+    ha-icon {
+      font-size: 14px;
+    }
+
+    .text {
+      flex: 1;
+      padding: 10px 4px;
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 400;
+    }
+  }
+
+  .content {
+    display: flex;
+    padding: 0 24px 8px 24px;
+  }
+
+  .parameters {
+    min-height: 380px;
+    min-width: 400px;
+    padding: 4px 16px 0;
+
+    .mode-title {
+      display: flex;
+      margin-bottom: 4px;
+
+      .value {
+        margin-left: 8px;
+        text-transform: capitalize;
+        color: var(--dark-primary-color);
+      }
+    }
+
+    segment-button-group {
+      margin-bottom: 24px;
+    }
+  }
+
+  .areas {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 24px 24px 24px;
+
+    .mwc-button {
+      font-size: 150% !important;
+    }
+
+    .clean-button {
+      display: inline-block;
+      padding: 10px 32px;
+      border: none;
+      border-radius: 8px;
+      color: var(--primary-text-color);
+      background: var(--vc-primary-select-background);
+      cursor: pointer;
+
+      &.disabled {
+        opacity: .3;
+        cursor: default;
+      }
+    }
+  }
+}

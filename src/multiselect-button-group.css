@@ -1,0 +1,16 @@
+.multiselect-button {
+    display: flex;
+    line-height: 24px;
+    padding: 8px 16px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &.active {
+        background-color: var(--vc-primary-select-background);
+    }
+
+    .text {
+        margin-left: 8px;
+    }
+}

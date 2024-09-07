@@ -1,0 +1,13 @@
+:host {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 40px;
+    border-radius: 8px;
+    background-color: var(--vc-primary-select-background);;
+}

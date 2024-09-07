@@ -1,0 +1,35 @@
+:host {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid var(--vc-primary-select-background);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.segment-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    cursor: pointer;
+
+    &.active {
+        background-color: var(--vc-primary-select-background);;
+    }
+
+    &.disabled {
+        display: none;
+        opacity: .2;
+        cursor: default;
+    }
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .text {
+        white-space: nowrap;
+    }
+}
