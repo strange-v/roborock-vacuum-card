@@ -1,6 +1,6 @@
 {
   "name": "roborock",
-  "version": "1.0.2a",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/roborock-vacuum-card.js",
   "scripts": {

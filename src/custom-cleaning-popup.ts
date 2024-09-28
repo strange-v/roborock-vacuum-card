@@ -110,14 +110,20 @@ export class CustomCleaningPopup extends LitElement {
   }
 
   private async onRunCleaning() {
+    const delay = 100;
+
     if (this.activeAreas.length == 0)
       return;
 
     this.popupRequestInProgress = true;
 
+    this.fixModesIfNeeded();
     await this.robot.setSuctionModeAsync(this.activeSuctionMode as RoborockSuctionMode);
+    await new Promise(r => setTimeout(r, delay));
     await this.robot.setMopModeAsync(this.activeMopMode as RoborockMopMode);
+    await new Promise(r => setTimeout(r, delay));
     await this.robot.setRouteModeAsync(this.activeRouteMode as RoborockRouteMode);
+    await new Promise(r => setTimeout(r, delay));
 
     const area_ids = this.activeAreas.map(v => parseInt(v, 10));
     await this.robot.startSegmentsCleaningAsync(area_ids, parseInt(this.activeCycleMode, 10));
