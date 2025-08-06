@@ -40,9 +40,9 @@
   },
   "mop_mode": {
     "off": "Off",
-    "mild": "Niski",
-    "moderate": "Średni",
-    "intense": "Wysoki"
+    "low": "Niski",
+    "medium": "Średni",
+    "high": "Wysoki"
   },
   "route_mode": {
     "fast": "Szybko",
